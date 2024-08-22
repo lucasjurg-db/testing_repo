@@ -13,14 +13,6 @@
 
 # COMMAND ----------
 
-# DBTITLE 1,Displaying the Current Directory Path
-# MAGIC %sh
-# MAGIC
-# MAGIC cat /databricks/data/logs/wsfs.log
-# MAGIC # grep "fuse_debug.DEBUG" /databricks/data/logs/wsfs.log
-
-# COMMAND ----------
-
 # MAGIC %sh
 # MAGIC echo "" > /databricks/data/logs/wsfs.log
 
