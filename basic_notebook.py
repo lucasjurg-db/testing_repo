@@ -1,9 +1,16 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC Testing
+
+# COMMAND ----------
+
 # DBTITLE 1,Exploring Databricks Log Files with Bash
 # MAGIC %sh
 # MAGIC ls
 # MAGIC # # cat /databricks/data/logs/wsfs.log
 # MAGIC # echo "Hello" > jurgensen_test_file_new
+# MAGIC # with some new stuff again
+# MAGIC # and again some new stuff
 # MAGIC
 
 # COMMAND ----------
