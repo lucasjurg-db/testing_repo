@@ -5,14 +5,6 @@ search_for_word("titanic_data.csv", "Johnson") # Williams
 
 # COMMAND ----------
 
-with open("demo.py", "r") as f:
-  for line in f:
-    if "pandas" in line:
-      print(f"found pandas in demo.py - {line}")
-
-
-# COMMAND ----------
-
 with open("demo_copy.py", "w") as out:
   with open("demo.py", "r") as infile:
     for line in infile:
@@ -20,5 +12,10 @@ with open("demo_copy.py", "w") as out:
 
 # COMMAND ----------
 
-import os
-os.remove("demo_copy.py")
+# MAGIC %sh
+# MAGIC echo "
+# MAGIC # COMMAND ----------
+# MAGIC
+# MAGIC import os
+# MAGIC os.remove(\"demo_copy.py\")
+# MAGIC " >> demo.py
