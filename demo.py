@@ -15,3 +15,6 @@ def search_for_word(file_name, word):
         print(f"Found '{word}' on line: {line_num+1} of file: '{file_name}'")
 
 search_for_word("titanic_data.csv", "Johnson")
+
+
+# With some new code
