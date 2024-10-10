@@ -19,3 +19,5 @@ with open("demo_copy.py", "w") as out:
 # MAGIC import os
 # MAGIC os.remove(\"demo_copy.py\")
 # MAGIC " >> demo.py
+
+# With some new stuff
