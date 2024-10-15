@@ -20,4 +20,4 @@ with open("demo_copy.py", "w") as out:
 # MAGIC os.remove(\"demo_copy.py\")
 # MAGIC " >> demo.py
 
-# With some more Ka-hing again
+# With changes 1
