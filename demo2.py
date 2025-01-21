@@ -1,7 +1,7 @@
 # Databricks notebook source
 from finding_library import search_for_word
 
-search_for_word("titanic_data.csv", "Johnson") # Williams Mark
+search_for_word("titanic_data.csv", "Johnson") # Williams Mark Scott
 
 # COMMAND ----------
 
